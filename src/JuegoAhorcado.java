@@ -170,7 +170,7 @@ public class JuegoAhorcado {
                     else{
                         jug1.setErroresCometidos(6);
                         dibujarAhorcado(jug1.getErroresCometidos());
-                        System.out.println("¡¡¡LO SIENTO "+jug1.getNombre()+",HAS PERDIDO!!!");
+                        System.out.println("¡¡¡LO SIENTO "+jug1.getNombre()+",HAS PERDIDO!!! - La palabra secreta era: "+SecretWord.getPalabraSecreta());
                     }
                 break;
                 
